@@ -1,3 +1,9 @@
+/*
+	Kyle Bergman
+	INFO 343 with Jacob Morris
+	CSS AJAX
+*/
+
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
 
 body {
@@ -11,3 +17,45 @@ body {
     margin-right: 10px;
 }
 
+.comment, .title {
+	display: inline-block;
+}
+
+.cmt-body {
+	margin-left: 15px;
+	width: 80%;
+}
+
+.rating {
+	vertical-align: top;
+	padding-top: 15px;
+}
+
+#name_input {
+	margin-bottom: 5px;
+}
+
+.name {
+	font-size: 90%;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 14;
+	margin-bottom: 0px;
+}
+
+#score {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.vote {
+	display: block;
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 10px;
+}
